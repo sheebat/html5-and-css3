@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        header {
+
+        background-color: #b3d4fc;
+        font-size: large;
+            color: dodgerblue;
+    }
+        p{
+            font-family: Arial;
+
+        }
+        table {
+            width:100%;
+            border: none;
+        }
+        table, th, td {
+
+            font-family:Arial;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+            font-family:Arial;
+        }
+
+        td.center{
+            text-align: center;
+        }
+        table.names tr:nth-child(even) {
+            background-color: #eee;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table.names tr:nth-child(odd) {
+            background-color:#fff;
+        }
+
+        tr:nth-of-type(3) {
+            color: dodgerblue;
+            font-weight: bold;
+        }
+        td:nth-last-child(3) {
+            color: darkblue;
+            font-weight: bold;
+        }
+        td.numberone{
+            color: dodgerblue;
+        }
+
+        table.names th {
+
+            background-color: white;
+            color: black;
+        }
+table.names {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+        footer p {
+            background-color: #b3d4fc;
+            font-size:larger;
+            font-family: Arial;
+            color: dodgerblue;
+            border: none;
+            height: 20px;
+            width: 900px;
+
+
+        }
+    </style>
+</head>
+<body>
+<table class="one">
+    <tr><td>
+<header><strong>Courses</strong></header>
+<p><strong>Here are some courses I've taken:</strong></p>
+<table class="names">
+    <tr>
+        <th>Course Number</th>
+        <th>Course Title</th>
+        <th>Semester Taken</th>
+    </tr>
+    <tr>
+        <td class="center" colspan="3"><strong>For Credit</strong></td>
+    </tr>
+    <tr>
+        <td>6.813</td>
+        <td>User Interface Design</td>
+        <td>Spring 2014</td>
+    </tr>
+
+    <tr>
+        <td>6.034</td>
+        <td>Artificial Intelligence</td>
+        <td>Fall 2013</td>
+    </tr>
+    <tr>
+        <td>6.006</td>
+        <td>Introduction to Algorithms</td>
+        <td>Fall 2013</td>
+    </tr>
+
+
+    <br>
+
+    <tr>
+        <td class="center" colspan="3"><strong>Listener</strong></td>
+    </tr>
+    <tr>
+        <td class="numberone">6.867</td>
+        <td>Machine Learning</td>
+        <td>Fall 2013</td>
+    </tr>
+    <tr>
+        <td class="numberone">6.867</td>
+        <td>Database Systems</td>
+        <td>Fall 2013</td>
+    </tr>
+
+</table></td></strong>
+        <td><img src="dog-meme.jpg" width="302" height="357"></td></tr></table>
+<footer>
+    <p><strong>Interests</strong></p>
+    <strong>I am interested <strong>NCI</strong>, memes, and youtube videos.</strong></footer>
+</body>
+</html>
