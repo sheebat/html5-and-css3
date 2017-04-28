@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+
+
+
+    <div id="content">
+        <div class="inner">
+            <h1 class="header">Join Today </h1>
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <h4 class="subhead">Choose one of the sign up methods.</h4>
+        </div>
+
+<div>
+
+<label>
+
+      <span><i class="fa fa-facebook" aria-hidden="true"> Facebook</i></span>
+
+        <span><i class="fa fa-twitter" aria-hidden="true"> Twitter</i></span>
+
+        <span><i class="fa fa-google-plus" aria-hidden="true">  Google+</i></span>
+        </label>
+
+        <div>
+            <hr>
+            </div>
+        <div>
+            <form action="#" method="post">
+                <p>Or sign up using your email address</p>
+                <div class="form">
+                     <input type="text" placeholder="Enter your full name" size="70" id="username" aria-label="true">
+                     <input type="email" placeholder="Enter your email address" id="email" size="70" aria-label="true"><br>
+                     <input type="password" placeholder="password" id="password" size="70" aria-label="true"/>
+                    <button>Create My Account > </button>
+
+                </div>
+                </form>
+           </div>
+</div>
+    </div>
+</body>
+</html>
