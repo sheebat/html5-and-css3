@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+
+            height: 750px;
+            background-color: darkblue;
+            border-radius: 25px;
+            width: 100%;
+
+            align-content:  stretch;
+        }
+
+        .flex-item {
+            background-color: lightgray;
+            width: 400px;
+            height: 400px;
+            margin: 10px;
+            border-radius: 25px;
+            text-align: center;
+            font-family: Arial;
+            font-size: xx-large;
+        }
+
+        .first {
+            -webkit-order: -1;
+            order: 1;
+            border-radius: 25px;
+            font-size: xx-large;
+
+
+        }
+        .button {
+            background-color: blue;
+        color: #ffffff;
+        } /* Blue */
+        form{
+font-size: medium;
+            border-radius: 25px;
+        }
+        input {
+            width: 70%;
+            border-radius: 4px;
+        }
+        textarea {
+            width: 70%;
+            border-radius: 4px;
+        }
+
+        input[type=submit], input[type=reset] {
+            background-color:blue;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            display: inline;
+            width: 100px;
+            height:35px;
+        }
+        #div1 {
+            width: 250px;
+            height: 70px;
+            padding: 30px;
+            border: 1px dotted #000000;
+            background-color: #ffffff;
+            border-radius: 7px;
+            margin: auto;
+
+        }
+    </style>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>
+
+<div class="flex-container">
+    <div class="flex-item">Pending</div>
+    <div class="flex-item">In Progress</div>
+    <div class="flex-item">Completed</div>
+    <div class="flex-item first">Add a Task
+        <form action="/action_page.php">
+
+
+                <input type="text" name="title" value="Title" placeholder="Title"><br>
+ <textarea rows="5" cols="20" name="description" placeholder="Description">Description</textarea><br>
+            <input type="date" placeholder="Due Date (dd/mm/yyyy)"><br/>
+            <input type="submit" value="Add Task"class="button"  draggable="true" ondragstart="drag(event)">
+            <input type="reset" value="Clear Data" class="button">
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">Drag Here to Delete</div>
+            <br/>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
