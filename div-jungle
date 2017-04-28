@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        element.style{
+            padding-top: 8%;
+            padding-bottom: 7%;
+        }
+        .container{
+            display: flex;
+            background-color: #555555;
+            width: 100%;height: 500px;top: 100px;
+            border: solid darkgray 2px;
+            position: relative;
+        }
+        .outer{
+            width: 14%;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-left: 20px;
+            margin-top: 10px;
+
+
+        }
+        .inner{
+            background-color: #b3d4fc;
+            width: 100%;
+            height: 10%;
+            padding: 10px;
+            border: solid #000000 2px;
+            border-radius: 5px;
+            position: relative;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            text-align: center;
+
+
+        }
+        div{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="outer">
+        <div class="inner">Design</div>
+
+
+    </div>
+    <div class="outer">
+        <div class="inner">Edit HTML</div>
+        <div class="inner">Edit CSS</div>
+        <div class="inner">Edit JavaScript</div>
+        <div class="inner">Edit Images</div>
+    </div>
+    <div class="outer">
+        <div class="inner">Minify HTML</div>
+        <div class="inner">Minify CSS</div>
+        <div class="inner">Minify JS</div>
+        <div class="inner">Compressed Images</div>
+    </div>
+
+    <div class="outer">
+        <div class="inner">Concatenate CSS</div>
+        <div class="inner">Concatenate JS</div>
+    </div>
+    <div class="outer">
+        <div class="inner">Push to Server</div>
+        <div class="inner">Refresh Browser</div>
+
+    </div>
+    <div class="outer">
+                <div class="inner">Test</div>
+
+    </div>
+</div>
+
+</body>
+</html>
