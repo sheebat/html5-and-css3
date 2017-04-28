@@ -1,0 +1,123 @@
+h1.header{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: midnightblue;
+    margin-left: 10%;
+
+
+}
+h4.subhead {
+    color:gray;
+    margin-left: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+p{
+    color: #555555;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-left: 10%;
+}
+body{
+    border-left-width:600px;
+    margin-left: 150px;
+    position: absolute;
+}
+.fa-lock{
+color: lightgray;
+    position: absolute;
+    margin-left: 500px;
+}
+div #content{
+
+    width: 600px;
+    height: 450px;
+    margin: 100px;
+    border-top: none;
+    box-shadow: #555555 0px 1px 0px 1px;
+    position: relative;
+}
+label{
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+span{
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.fa-facebook {
+    background:#3b5998;
+    width:20%;
+    height:30px;
+    border-radius: 5px;
+color: #ffffff;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+   vertical-align: 50%;
+
+}
+
+.fa-twitter {
+    background:#00aced;
+    width:20%;
+    height:30px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    vertical-align: 50%;
+}
+.fa-google-plus {
+    background:red;
+    width:20%;
+    height:30px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    vertical-align: 50%;
+}
+/*img{
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+}*/
+label.twitter{
+    margin-left: 20px;
+}
+.form #username{
+    background: url("http://i.imgur.com/xCWr97f.png") no-repeat left center;
+    background-position: 450px 5px;
+    border-right: 1px solid #000000;
+    margin-left: 10px;
+}
+
+.form #email{
+    background: url("http://i.imgur.com/xCWr97f.png") no-repeat left center;
+    background-position: 450px 5px;
+    border-right: 1px solid #000000;
+    margin:10px;
+}
+.form #password{
+    background: url("http://i.imgur.com/xCWr97f.png") no-repeat left center;
+    background-position: 450px 5px;
+    border-right: 1px solid #000000;
+    margin-left: 10px;
+}
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: orange;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 8px;
+    box-shadow: #555555 0px 1px 0px 1px;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
