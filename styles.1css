@@ -1,0 +1,78 @@
+div{
+    text-transform: capitalize;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    text-align: start;
+    position: relative;
+    left: 8%;
+    top:8%;
+    margin: auto;
+    border-width: 2px;
+
+
+}
+div.marginbox{
+    background-color: khaki;
+    border-style:solid;
+    border-color: blue;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    width:80%;
+    height:80%;
+    position: absolute
+}
+div.borderbox{
+    background-color: red;
+    border-style:solid;
+    border-color: blue;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 3px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 35px;
+    width:80%;
+    height:80%;
+    position: absolute;
+
+}
+div.paddingbox {
+    background-color: green;
+    border-style:solid;
+    border-color: blue;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    width:80%;
+    height:80%;
+    position: absolute;
+
+}
+div.contentbox{
+    background-color: skyblue;
+    border-style:solid;
+    border-color: blue;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    width:80%;
+    height:80%;
+    position: relative;
+}
